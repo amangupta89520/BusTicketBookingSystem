@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Database</servlet-name>
+        <servlet-class>Database</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DatabaseSignIn</servlet-name>
+        <servlet-class>DatabaseSignIn</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>addbooking</servlet-name>
+        <servlet-class>addbooking</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>deletebooking</servlet-name>
+        <servlet-class>deletebooking</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Database</servlet-name>
+        <url-pattern>/Database</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DatabaseSignIn</servlet-name>
+        <url-pattern>/DatabaseSignIn</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>addbooking</servlet-name>
+        <url-pattern>/addbooking</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>deletebooking</servlet-name>
+        <url-pattern>/deletebooking</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

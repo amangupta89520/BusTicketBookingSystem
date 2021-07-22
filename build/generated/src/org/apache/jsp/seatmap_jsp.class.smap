@@ -1,0 +1,12 @@
+SMAP
+seatmap_jsp.java
+JSP
+*S JSP
+*F
++ 0 seatmap.jsp
+seatmap.jsp
+*L
+1,40:44
+41:84,3
+42,139:87
+*E
